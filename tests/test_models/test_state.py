@@ -48,9 +48,5 @@ class TestState(unittest.TestCase):
             self.assertTrue(hasattr(o, k))
             self.assertEqual(type(getattr(o, k, None)), v)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3727bf899858accaf18442f7cd9c83420f776ede
 if __name__ == "__main__":
     unittest.main()
