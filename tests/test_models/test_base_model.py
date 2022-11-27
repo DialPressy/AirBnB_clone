@@ -76,8 +76,13 @@ class TestBaseModel(unittest.TestCase):
     def test_3_id(self):
         """Tests for unique user ids."""
 
+<<<<<<< HEAD
         l = [BaseModel().id for i in range(1000)]
         self.assertEqual(len(set(l)), len(l))
+=======
+        nl = [BaseModel().id for i in range(1000)]
+        self.assertEqual(len(set(nl)), len(nl))
+>>>>>>> 3727bf899858accaf18442f7cd9c83420f776ede
 
     def test_3_save(self):
         """Tests the public instance method save()."""
